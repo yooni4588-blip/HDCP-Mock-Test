@@ -12,8 +12,10 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+      - name: Set up Gradle
+        uses: gradle/gradle-build-action@v2
       - name: Build with Gradle
-        run: |
+        run: gradle assembleRelease
           chmod +x ./gradlew
           ./gradlew assembleRelease
       - name: Upload APK
