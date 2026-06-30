@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HDCP Mock Test</string>
+    <string name="app_title">HDCP ICD Test v1.0</string>
+    <string name="start_test">Start Test</string>
+    <string name="waiting_for_test">Waiting for test to start... Tap button above or test will run automatically.</string>
+</resources>
